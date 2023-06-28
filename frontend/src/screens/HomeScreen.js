@@ -32,7 +32,7 @@ function HomeScreen() {
       try {
         const result = await axios.get('/api/products');
         dispatch({ type: 'FETCH_SUCCESS', payload: result.data });
-      } catch {
+      } catch (err) {
         dispatch({ type: 'FETCH_FAIL', payload: error.message });
       }
 
@@ -45,9 +45,9 @@ function HomeScreen() {
       <h1>Featured Products</h1>
       <div className="products">
         {loading ? (
-          <div>loading...</div>
+          <div>Loading...</div>
         ) : error ? (
-          <div>(error)</div>
+          <div>{error}</div>
         ) : (
           products.map((product) => (
             <div className="product" key={product.slug}>
