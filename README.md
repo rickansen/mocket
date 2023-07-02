@@ -18,3 +18,4 @@
 14. Create React Context For Add Item To Cart
 15. Complete Add To Cart
 16. Create Cart Screen
+17. Complete Cart Screen
