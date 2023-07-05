@@ -23,4 +23,4 @@
 19. Connect To MongoDB Database
 20. Seed Sample Products
 21. Seed Sample Users
-22. Seed Signin Backend Apu
+22. Seed Signin Backend API
