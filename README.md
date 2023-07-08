@@ -26,3 +26,4 @@
 22. Seed Signin Backend API
 23. Complete Signin Screen
 24. Create Shipping Screen
+25. Create Signup Screen
