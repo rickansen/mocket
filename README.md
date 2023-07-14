@@ -31,3 +31,4 @@
 27. Create Place Order Screen
 28. Implement Place Order Action
 29. Create Order Screen
+30. Pay Order By PayPal
